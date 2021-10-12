@@ -21,3 +21,5 @@ func printChange(f func(x ...int) []int, y ...int) {
 		fmt.Println("Changed:", v)
 	}
 }
+
+// f func can be when only it's a parameter, without f it is in the return
